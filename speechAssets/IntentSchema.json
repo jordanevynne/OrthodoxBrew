@@ -1,0 +1,25 @@
+{
+   "intents": [
+    {
+      "intent": “GetBrewMethodIntent",
+      "slots": [
+        {
+          "name" : “Device",
+          "type": "LIST_OF_DEVICES"
+        }
+       ]
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+       "intent": "AMAZON.HelpIntent"
+    },
+    {
+       "intent": "AMAZON.StopIntent"
+     },
+     {
+       "intent": "AMAZON.CancelIntent"
+     }
+   ]
+ }
