@@ -1,16 +1,13 @@
 {
    "intents": [
     {
-      "intent": “GetBrewMethodIntent",
+      "intent": "GetBrewMethodIntent",
       "slots": [
         {
-          "name" : “Device",
+          "name" : "Device",
           "type": "LIST_OF_DEVICES"
         }
        ]
-    },
-    {
-      "intent": "AMAZON.RepeatIntent"
     },
     {
        "intent": "AMAZON.HelpIntent"
