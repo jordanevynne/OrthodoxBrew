@@ -11,12 +11,16 @@
 var AlexaSkill = require('./AlexaSkill'),
     methods = require('./methods');
 
+/**
+* App ID for the OrthodoxBrew skill
+*/
 var APP_ID = 'amzn1.echo-sdk-ams.app.bc7fd228-b919-4437-a54e-1212395c5592';
 
 var OrthodoxBrew = function () {
     AlexaSkill.call(this, APP_ID);
 };
 
+// Extend Alexaskill
 OrthodoxBrew.prototype = Object.create(AlexaSkill.prototype);
 OrthodoxBrew.prototype.constructor = OrthodoxBrew;
 
@@ -49,9 +53,9 @@ OrthodoxBrew.prototype.intentHandlers = {
       } else {
           var speech;
           if (deviceName) {
-              speech = "I'm sorry, I currently do not know the brew method for " + deviceName + ". What else can I help with?";
+              speech = "I'm sorry, I do not know the brew method for " + deviceName + ". What else can I help with?";
           } else {
-              speech = "I'm sorry, I currently do not know that brew method. What else can I help with?";
+              speech = "I'm sorry, I do not know that brew method. What else can I help with?";
           }
           speechOutput = {
               speech: speech,

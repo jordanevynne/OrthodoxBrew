@@ -6,9 +6,9 @@
 */
 
 module.exports = {
-  "french press": "You will need an eight cup french press, a grinder, 56 grams of whole bean coffee, hot water, a wooden stirrer, a scale, a timer, and your favorite mug.",
-  "aeropress": "You will need an aeropress, an aeropress filter, a grinder, 17 grams of whole bean coffee, hot water, a wooden stirrer, a scale, a timer, and your favorite mug.",
-  "chemex": "You will need an eight cup chemex, a chemex filter, a grinder, 42 grams of whole bean coffee, hot water, a wooden stirrer, a scale, a timer, and your favorite mug.",
-  "hariovsixty": "You will need a hario v sixty, a hario v sixty, filter, 21 grams of whole bean coffee, hot water, a scale, a timer, and your favorite mug.",
-  "clever": "You will need a clever coffee dripper, a number four cone filter, 20 grams of whole bean coffee, hot water, a scale, a timer, and your favorite mug.",
+  "french press": "French press. You will need an eight cup french press, a grinder, 56 grams of whole bean coffee, hot water, a wooden stirrer, a scale, a timer, and your favorite mug.",
+  "aeropress": "Aeropress. You will need an aeropress, an aeropress filter, a grinder, 17 grams of whole bean coffee, hot water, a wooden stirrer, a scale, a timer, and your favorite mug.",
+  "chemex": "Chemex. You will need an eight cup chemex, a chemex filter, a grinder, 42 grams of whole bean coffee, hot water, a wooden stirrer, a scale, a timer, and your favorite mug.",
+  "hariovsixty": "Hario v sixty. You will need a hario v sixty, a hario v sixty, filter, 21 grams of whole bean coffee, hot water, a scale, a timer, and your favorite mug.",
+  "clever": "Clever. You will need a clever coffee dripper, a number four cone filter, 20 grams of whole bean coffee, hot water, a scale, a timer, and your favorite mug.",
 };
