@@ -1,8 +1,16 @@
 GetBrewMethodIntent {Device}
+GetBrewMethodIntent brew method for {Device}
+GetBrewMethodIntent brew method for a {Device}
+GetBrewMethodIntent brew method for an {Device}
 GetBrewMethodIntent the brew method for {Device}
+GetBrewMethodIntent the brew method for a {Device}
+GetBrewMethodIntent the brew method for an {Device}
 GetBrewMethodIntent find brew method for {Device}
 GetBrewMethodIntent find brew method for a {Device}
 GetBrewMethodIntent find brew method for an {Device}
+GetBrewMethodIntent find the brew method for {Device}
+GetBrewMethodIntent find the brew method for a {Device}
+GetBrewMethodIntent find the brew method for an {Device}
 GetBrewMethodIntent tell me the brew method for {Device}
 GetBrewMethodIntent tell me the brew method for a {Device}
 GetBrewMethodIntent tell me the brew method for an {Device}
@@ -12,11 +20,12 @@ GetBrewMethodIntent give me the brew method for an {Device}
 GetBrewMethodIntent get me the brew method for {Device}
 GetBrewMethodIntent get me the brew method for a {Device}
 GetBrewMethodIntent get me the brew method for an {Device}
+GetBrewMethodIntent what's the brew method for {Device}
 GetBrewMethodIntent what's the brew method for a {Device}
 GetBrewMethodIntent what's the brew method for an {Device}
 GetBrewMethodIntent what's the brew method for {Device}
+GetBrewMethodIntent what is the brew method for {Device}
 GetBrewMethodIntent what is the brew method for a {Device}
 GetBrewMethodIntent what is the brew method for an {Device}
-GetBrewMethodIntent what is the brew method for {Device}
 GetBrewMethodIntent how do I brew coffee with a {Device}
 GetBrewMethodIntent how do I brew coffee with an {Device}
