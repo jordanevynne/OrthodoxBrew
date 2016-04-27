@@ -47,7 +47,7 @@ OrthodoxBrew.prototype.intentHandlers = {
       if (method) {
           speechOutput = {
               speech: method,
-              type: AlexaSkill.speechOutputType.PLAIN_TEXT
+              type: AlexaSkill.speechOutputType.SSML
           };
           response.tellWithCard(speechOutput, cardTitle, method);
       } else {
@@ -59,11 +59,11 @@ OrthodoxBrew.prototype.intentHandlers = {
           }
           speechOutput = {
               speech: speech,
-              type: AlexaSkill.speechOutputType.PLAIN_TEXT
+              type: AlexaSkill.speechOutputType.SSML
           };
           repromptOutput = {
               speech: "What else can I help with?",
-              type: AlexaSkill.speechOutputType.PLAIN_TEXT
+              type: AlexaSkill.speechOutputType.SSML
           };
           response.ask(speechOutput, repromptOutput);
       }
